@@ -109,3 +109,9 @@ Entering '?' will provide you with a menu that defines each option:
     e - manually edit the current hunk
     ? - print help
 
+Man Page
+--------
+
+View the official man page
+    
+    $ man git-add
