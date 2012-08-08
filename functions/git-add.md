@@ -3,9 +3,8 @@ git add
 
 Human Summary
 -------------
-Inform git that file modifications since the last commit should be added to the
-next commit. Creation of a file qualifies as a file modification, and in some
-cases (-u and -A explained below), so does deletion of a file.
+Inform git that file modifications should be added to the next commit.
+
 
 Technical Summary
 -----------------
