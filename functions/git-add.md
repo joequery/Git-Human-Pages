@@ -32,7 +32,7 @@ deletions.
     $ git add -A
 
 Add all modifications to any file versioned through git that has been modified
-by the last commit. The difference between this and -A above is that -A will
+since the last commit. The difference between this and -A above is that -A will
 add newly created files to be committed, while this does not.
 
     $ git add -u
