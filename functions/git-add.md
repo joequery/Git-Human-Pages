@@ -3,7 +3,10 @@ git add
 
 Human Summary
 -------------
-Inform git that file modifications should be added to the next commit.
+Inform git that file modifications(*) should be added to the next commit.
+
+(*) In the context of git, we specifically mean "file modifications since the
+last commit"
 
 
 Technical Summary
@@ -25,15 +28,14 @@ use git add again to add the modifications to the next commit.
     $ git add somefile.txt
     $ git commit -m "Modified somefile.txt"
 
-Add all modifications to all files modified since the last commit to the next
-commit. This includes newly created files, file modifications, and file
-deletions.
+Add all file modifications to the next commit. This includes newly created
+files, file modifications, and file deletions.
 
     $ git add -A
 
-Add all modifications to any file versioned through git that has been modified
-since the last commit. The difference between this and -A above is that -A will
-add newly created files to be committed, while this does not.
+Add all modifications to any file already versioned through git. The difference
+between this and -A above is that -A will add newly created files to be
+committed, while this does not.
 
     $ git add -u
 
@@ -46,7 +48,7 @@ extension to the next commit.
 
     $ git add *.py
 
-If you're curious what modifications a git add command will add to the next
+If you're curious what modifications a `git add` command will add to the next
 commit, you can set up a "dry run" with the -n flag.
 
     $ touch f1.txt
