@@ -83,13 +83,15 @@ error.log.
 # -p, --patch
 
 Allows you to interactively add portions of modified files to the next commit.
-Newly created and deleted files are ignored. This is useful if you've added two
-functions in the same file since the last commit, but find the creation of the
-two function merits two commits.
+Newly created and deleted files are ignored. This is useful if, for example,
+you've added two functions in the same file since the last commit, but find the
+creation of the two function merits two commits.
 
-    $ git add -p
-
-You will be greeted with a hunk, and options on what to do with it.
+    $ git add -p mymodifiedfile.py    # Enter patch mode for single file
+    $ git add -p                      # Enter patch mode for all modifications
+    $ git add -p file1.txt file2.txt  
+    
+You will be greeted with a hunk of text, and options on what to do with it.
 
     Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
 
@@ -110,6 +112,7 @@ Entering '?' will provide you with a menu that defines each option:
     s - split the current hunk into smaller hunks
     e - manually edit the current hunk
     ? - print help
+
 
 Man Page
 --------
