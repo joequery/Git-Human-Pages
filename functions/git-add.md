@@ -114,6 +114,11 @@ Entering '?' will provide you with a menu that defines each option:
     ? - print help
 
 
+"Staging" is synonymous with "adding to the next commit" (or technically
+speaking, adding to the index). '+' signs indicate additions that will be added
+to the next commit if the hunk is staged, and '-' signs indicate deletions that
+will be added to the next commit.
+
 Man Page
 --------
 
