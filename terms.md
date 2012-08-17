@@ -7,15 +7,7 @@ know.
 Branches
 --------
 
-A branch is a named collection of commits. The "master" branch is created when
-the git repository itself is created. By convention, the master branch should
-be your most production-ready branch. A very common scenario is to switch to a
-new branch for a new feature, leaving your master branch unaffected by the new
-feature addition until you explicitly merge the new feature branch with your
-master branch. This is extremely useful since production bugs may be found
-while developing a feature, and debugging the issue with an increased
-complexity caused by the new, unfinished feature leads to an unpleasant
-experience.
+A branch is a named collection of commits. 
 
 Commit
 ------
