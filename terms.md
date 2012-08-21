@@ -20,7 +20,8 @@ Index/Staging Area
 ------------------
 
 A collection of file additions, modifications, and deletions that will be saved
-upon the next commit. 
+upon the next commit. To add a file addition/modification/deletion to the index
+is to "stage" the file.
 
 HEAD
 ----
