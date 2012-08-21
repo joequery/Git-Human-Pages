@@ -24,6 +24,8 @@ use git add again to add the modifications to the next commit.
     $ git add somefile.txt
     $ git commit -m "Modified somefile.txt"
 
+To add file deletions to the next commit, see the ```git-rm``` command.
+
 Add all file modifications to the next commit. This includes newly created
 files, file modifications, and file deletions.
 
@@ -49,7 +51,7 @@ commit, you can set up a "dry run" with the -n flag.
 
     $ touch f1.txt
     $ touch f2.txt
-    $ remove somefile.txt
+    $ rm somefile.txt
     $ git add -n -A
     remove 'somefile.txt'
     add 'f1.txt'
