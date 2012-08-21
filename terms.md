@@ -21,3 +21,10 @@ Index/Staging Area
 
 A collection of file additions, modifications, and deletions that will be saved
 upon the next commit. 
+
+HEAD
+----
+
+It's generally safe to think of HEAD as the currently checked-out branch. In
+many cases, HEAD resolves to the last commit of the current branch. (See ```git
+revert``` and ```git reset``` for examples)
