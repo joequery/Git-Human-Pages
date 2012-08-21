@@ -9,10 +9,6 @@ Inform git that file modifications(*) should be added to the next commit.
 last commit"
 
 
-Technical Summary
------------------
-Updates the index in preparation for the next commit.
-
 Usage
 -----
 
@@ -118,6 +114,10 @@ Entering '?' will provide you with a menu that defines each option:
 speaking, adding to the index). '+' signs indicate additions that will be added
 to the next commit if the hunk is staged, and '-' signs indicate deletions that
 will be added to the next commit.
+
+Technical Summary
+-----------------
+Updates the index in preparation for the next commit.
 
 Man Page
 --------
