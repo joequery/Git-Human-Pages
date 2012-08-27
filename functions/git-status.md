@@ -46,7 +46,7 @@ We would see the following:
 All files listed under "Changes to be committed" **will** have their
 modifications added to the next commit.
 
-If we were then to add a ```newfile.txt```, we would see the following upon
+If we were then to add a ```brandnewfile.txt```, we would see the following upon
 running ```git status```:
 
     # On branch master
@@ -58,7 +58,7 @@ running ```git status```:
     # Untracked files:
     #   (use "git add <file>..." to include in what will be committed)
     #
-    #       newfile.txt
+    #       brandnewfile.txt
 
 All files listed under "Untracked files" are files currently not versioned
 under git that have not been ignored via ```.gitignore```. You must use 
@@ -84,7 +84,7 @@ status``` would show us the following:
     # Untracked files:
     #   (use "git add <file>..." to include in what will be committed)
     #
-    #       newfile.txt
+    #       brandnewfile.txt
 
 
 The two occurences of ```modified:  myfile.txt``` lets us know that just
@@ -111,7 +111,7 @@ Then ```git status``` will show us the following (note the absence of
     # Untracked files:
     #   (use "git add <file>..." to include in what will be committed)
     #
-    #       newfile.txt
+    #       brandnewfile.txt
 
 Suppose we commit our changes and view the status immediately afterward.
 
