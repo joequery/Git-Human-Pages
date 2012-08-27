@@ -126,6 +126,28 @@ commit).
 Further Uses
 ------------
 
+### -s, --short
+
+Provides a more condensed output. Example output:
+
+    $ git-status -s
+    MM myfile.txt
+    M  README.md
+    ?? brandnewfile.txt
+
+Here's a table for the possible symbols to the left of the file names:
+
+    ?? Untracked file
+     M Modification not staged for commit
+    M  Modification staged for commit
+    MM Modifications staged for commit, but also contains unstaged changes
+     D File deletion not staged for commit
+    D  File deletion staged for commit
+    A  File addition staged for commit
+
+
+ 
+
 Technical Summary
 -----------------
 Displays paths that have differences between the index file and the current
